@@ -2,7 +2,11 @@ import React from 'react'
 
 function Footer() {
   return (
-    <div className='fixed bottom-0 text-center text-white/60 w-full p-3 border-t border-white/20'>&copy; 2025 All rights reserved DrawKit</div>
+    <footer className="bg-dark-custom text-center py-6">
+      <div className="container mx-auto px-4">
+        <p className="text-gray-400">&copy; 2025 DrawKit. All Rights Reserved.</p>
+      </div>
+    </footer>
   )
 }
 
